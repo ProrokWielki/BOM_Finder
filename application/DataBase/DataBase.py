@@ -1,34 +1,39 @@
 class DataBase:
     def __init__(self):
-        self.parts = []
-        self.number_of_parts = 0
+        self.elements = []
+        self.number_of_elements = 0
 
-    def add(self, part):
-        self.parts.append(part)
-        self.number_of_parts += 1
+    def add(self, element):
+        self.elements.append(element)
+        self.number_of_elements += 1
+        
+    def remove(self, element):
+        if element in self.elements:
+            self.elements.remove(element)
+            self.number_of_elements -= 1
 
-    def get_number_of_parts(self):
-        return self.number_of_parts
+    def get_number_of_elements(self):
+        return self.number_of_elements
 
     def find_elements(self, property):
-        found_parts = DataBase()
+        found_elements = DataBase()
 
-        for part in self.parts:
-            if part.has_property(property) == True:
-                found_parts.add(part)
+        for element in self.elements:
+            if element == property:
+                found_elements.add(element)
 
-        if(found_parts.get_number_of_parts() == 0):
+        if(found_elements.get_number_of_elements() == 0):
             return False
 
-        return found_parts
+        return found_elements
 
     def __str__(self):
         str_to_return = ""
 
-        for part in self.parts:
-            str_to_return += str(part) + "\r\n"
+        for element in self.elements:
+            str_to_return += str(element) + "\r\n"
 
         return str_to_return[:-2]
 
-    def get_records(self):
-        return self.parts
+    def get_elements(self):
+        return self.elements

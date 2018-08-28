@@ -37,11 +37,11 @@ data_base.add(resistor5)
 
 print(data_base.find_elements(Parts.Property("Resistance", 100)))
 
-records = data_base.get_records()
+records = data_base.get_elements()
 
 tmp_dict = []
 
-print(data_base.get_number_of_parts())
+print(data_base.get_number_of_elements())
 
 print(records)
 
