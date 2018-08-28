@@ -42,8 +42,10 @@ class Property:
             return self.name == other.name and self.value == other.value
         elif isinstance(other, (int, float)) and self.is_didgit_type is True:
             return self.value == other
+        elif isinstance(other, str):
+            return self.name == other
         else:
-            raise TypeError("unsupported operand type(s) for +: '{}' and '{}'").format(self.__class__, type(other))
+            raise TypeError("unsupported operand type(s) for +: '{}' and '{}'".format(self.__class__, type(other)))
     
     def __lt__(self, other):
         if self.is_didgit_type is True:
@@ -52,7 +54,7 @@ class Property:
             elif isinstance(other, (int, float)):
                 return self.value < other
             else:
-                raise TypeError("unsupported operand type(s) for +: '{}' and '{}'").format(self.__class__, type(other))
+                raise TypeError("unsupported operand type(s) for +: '{}' and '{}'".format(self.__class__, type(other)))
         else:
             raise  TypeError("unsupported operand for object with value not being numerical")
 
@@ -176,6 +178,12 @@ class Part:
             tmp_dictioanry = {**tmp_dictioanry, **property.to_dictionary()}
         
         return tmp_dictioanry
+    
+    def __eq__(self, other):
+        if isinstance(other, Property):
+            return other in self.properties
+        else:
+            raise TypeError("unsupported operand type(s) for +: '{}' and '{}'".format(self.__class__, type(other)))
     
 class Resistor(Part):
     number_of_parameters = 6

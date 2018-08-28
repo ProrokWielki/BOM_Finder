@@ -20,5 +20,10 @@
 			<type>2</type>
 			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/application</locationURI>
 		</link>
+		<link>
+			<name>test</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/test</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
