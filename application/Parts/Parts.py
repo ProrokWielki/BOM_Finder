@@ -1,5 +1,67 @@
+prefixes = ["p", "n", "u", "m", "", "k", "M", "G", "T"]
 
-prefixes = ["p", "n", "u", "m", "", "k", "M"]
+class Value:
+    
+    def __init__(self, value):      
+        self.value = 0
+        
+        if isinstance(value, str):         
+               
+            tmp_list = list(value)
+            
+            prefix = ""
+            prefix_position = -1
+            
+            decimal = -1
+            
+            for char in tmp_list:
+                try:
+                    int(char)
+                    self.value  = 10 * self.value 
+                    self.value += int(char)
+                except ValueError:
+                    if(char in prefixes ):
+                        if(prefix == ""):
+                            prefix = char
+                            prefix_position = len(str(self.value))
+                        else:
+                            raise ValueError("Only one prefix is supproted")    
+                    elif(char == "." or char == ","):
+                        if(decimal == -1):
+                            decimal = len(str(self.value))
+                        else:
+                            raise ValueError("Only one decimal separator allowed")      
+                    else:
+                        raise ValueError("unsupported char: '{}'".format(str(char)))  
+            
+            if((prefix_position < len(str(self.value)) and prefix_position != -1) and decimal != -1):
+                raise ValueError("Only one decimal separator allowed")
+            
+            elif(decimal != -1):
+                self.value = self.value/(10**(len(str(self.value)) - decimal))
+                
+            elif(prefix_position < len(str(self.value)) and prefix_position != -1):
+                self.value = self.value/(10**(len(str(self.value)) - prefix_position))  
+            
+            if(prefix_position != -1):
+                self.value *= 1000**(prefixes.index(prefix) - prefixes.index("")) 
+                
+        elif(isinstance(value, (int, float))):
+            self.value = value
+            
+        else:
+            raise TypeError("unsupported value type: '{}'".format(type(value)))
+    
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return other.value == self.value
+        elif isinstance(other, (int, float)):
+            return other == self.value
+        else:
+            raise TypeError("unsupported value type: '{}'".format(type(value)))
+    
+    def get_value(self):
+        return self.value
 
 class Property:  
     def __init__(self, name, value, unit = ""):
@@ -12,7 +74,7 @@ class Property:
         elif(isinstance(value, (int, float))):
             self.is_didgit_type = True
         else:
-            raise TypeError("unsupported value type(s): '{}'").format(type(value))
+            raise TypeError("unsupported value type: '{}'".format(type(value)))
 
     def get_property_name(self):
         return self.name
@@ -22,9 +84,9 @@ class Property:
 
     def is_numerical(self):
         return self.is_didgit_type
-
+    
     def __str__(self): 
-        prefix = 4
+        prefix = prefixes.index("")
         value_to_show = self.value
         if self.is_didgit_type is True:
             while value_to_show >= 1000 or value_to_show < 0:
