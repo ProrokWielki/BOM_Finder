@@ -65,17 +65,17 @@ for data in read_data:
         print("Nope")
         
    
+    
         
-main_menu = UI.Interface()
-find_menu = UI.Interface()
+main_menu = UI.Submenu()
+find_menu = UI.Submenu(main_menu)
 
-menus = [main_menu, find_menu]
+interface = UI.Interface(main_menu)
 
-current_menu = 0
 
 colorama.init(autoreset=True)
 
-main_menu.add_option("f", "find", colorama.Fore.GREEN)
+main_menu.add_option("f", "find", find_menu, colorama.Fore.GREEN)
 main_menu.add_option("a", "add", colorama.Fore.GREEN)
 main_menu.add_option("e", "exit", colorama.Fore.GREEN)
 
@@ -84,13 +84,7 @@ find_menu.add_option("p", "by package", colorama.Fore.GREEN)
 
 
 while True:
-    choise = menus[current_menu].execute()
-    
-    if choise == "e":
-        break
-    
-    if choise == "f":
-        current_menu = 1
+    interface.execute()
         
 
     
