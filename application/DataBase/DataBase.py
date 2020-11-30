@@ -1,3 +1,6 @@
+import parts as Parts
+
+
 class DataBase:
     def __init__(self):
         self.elements = []
@@ -6,7 +9,7 @@ class DataBase:
     def add(self, element):
         self.elements.append(element)
         self.number_of_elements += 1
-        
+
     def remove(self, element):
         if element in self.elements:
             self.elements.remove(element)
@@ -37,3 +40,16 @@ class DataBase:
 
     def get_elements(self):
         return self.elements
+
+    def to_json(self):
+        tmp_dict = []
+
+        for record in self.elements:
+            tmp_dict.append(record.to_dictionary())
+
+        return tmp_dict
+
+    # TODO it makes it tightly coupled to Parts
+    def from_json(self, json):
+        for part in json:
+            self.add(Parts.types[part["Part"]].from_dictionary(part))
