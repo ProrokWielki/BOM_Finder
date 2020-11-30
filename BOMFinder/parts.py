@@ -1,4 +1,4 @@
-from Parts.Parts import Part
+from BOMFinder.Parts.Parts import Part
 
 
 class Resistor(Part):

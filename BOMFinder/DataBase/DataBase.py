@@ -1,4 +1,4 @@
-import parts as Parts
+import BOMFinder.parts as Parts
 
 
 class DataBase:

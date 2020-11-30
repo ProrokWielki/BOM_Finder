@@ -1,0 +1,807 @@
+[
+    {
+        "Part": "Resistor",
+        "Resistance": 5600.0,
+        "Power": 1,
+        "Package": "11x4",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 470,
+        "Power": 3,
+        "Package": "17x6",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 4
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 20000,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 3
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 4700.0,
+        "Power": 1,
+        "Package": "11x4",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 4
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100000,
+        "Power": 3,
+        "Package": "17x6",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 8
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 1000,
+        "Power": 1,
+        "Package": "11x4",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 5
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100000,
+        "Power": 0.5,
+        "Package": "9x3",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100000,
+        "Power": 0.6,
+        "Package": "9x3",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 17
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 24000,
+        "Power": 0.4,
+        "Package": "3x2",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 92
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 6800.0,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 100
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100000,
+        "Power": 0.25,
+        "Package": "3x2",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 5
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 68000,
+        "Power": 1,
+        "Package": "9x3",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 19
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 82000,
+        "Power": 1,
+        "Package": "9x3",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 17
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 470000,
+        "Power": 1,
+        "Package": "9x3",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 17
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 47000,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 3
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 680,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 99
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 1200000.0,
+        "Power": 0.25,
+        "Package": "4x2",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 18
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 5600000.0,
+        "Power": 0.6,
+        "Package": "7x2",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 97
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 4700.0,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 160
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 330,
+        "Power": 1,
+        "Package": "10x3",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 9
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 402000,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 4
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 33000,
+        "Power": 2,
+        "Package": "12x4",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 18
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 1000000,
+        "Power": 0.25,
+        "Package": "7x2",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 8
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 220,
+        "Power": 0.25,
+        "Package": "5x2",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 90
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 470,
+        "Power": 5,
+        "Package": "21x9",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 6800.0,
+        "Power": 0.25,
+        "Package": "4x2",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 8
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 6040.0,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 49.9,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 1,
+        "Mounting": "SMD",
+        "Amount": 98
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 49900.0,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 11
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 20000,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 80
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 2200.0,
+        "Power": 0.25,
+        "Package": "4x2",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 6
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 22100.0,
+        "Power": 0.5,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 4
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 10000,
+        "Power": 0.5,
+        "Package": "9x3",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 90
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 66500.0,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 10
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 10000,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 99
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 200,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 9
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 1690.0,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 4
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.1,
+        "Mounting": "SMD",
+        "Amount": 6
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 22000,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 2
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 2000,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 3
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 499,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.1,
+        "Mounting": "SMD",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 300000,
+        "Power": 0.1,
+        "Package": "0805",
+        "Tolerance": 0.5,
+        "Mounting": "SMD",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 10,
+        "Power": 5,
+        "Package": "21x9",
+        "Tolerance": 5,
+        "Mounting": "THT",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 10000,
+        "Power": 0.6,
+        "Package": "6x2",
+        "Tolerance": 2,
+        "Mounting": "THT",
+        "Amount": 1
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 10000,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 80
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 2700.0,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "0805",
+        "Amount": 90
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 22000,
+        "Power": 1,
+        "Package": "10x3",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 19
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 3300.0,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 90
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1.0000000000000001e-07,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "2.54",
+        "Tolerance": 20,
+        "Mounting": "THT",
+        "Amount": 50
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1.0000000000000001e-07,
+        "Type": "Ceramic",
+        "Voltage": 16,
+        "Package": "0402",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 8
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-06,
+        "Type": "Electrolitic",
+        "Voltage": 63,
+        "Package": "4x7",
+        "Tolerance": 20,
+        "Mounting": "THT",
+        "Amount": 50
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-09,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "2.54",
+        "Tolerance": 10,
+        "Mounting": "THT",
+        "Amount": 90
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 4.7e-06,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 6
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 5e-10,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 2,
+        "Mounting": "SMD",
+        "Amount": 3
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 2.2000000000000003e-09,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 20,
+        "Mounting": "SMD",
+        "Amount": 27
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 9.999999999999999e-06,
+        "Type": "Ceramic",
+        "Voltage": 16,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 5
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-06,
+        "Type": "Electrolitic",
+        "Voltage": 50,
+        "Package": "4x8",
+        "Tolerance": 20,
+        "Mounting": "THT",
+        "Amount": 2
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-06,
+        "Type": "Electrolitic",
+        "Voltage": 50,
+        "Package": "4x10",
+        "Tolerance": 20,
+        "Mounting": "THT",
+        "Amount": 20
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-08,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "2.54",
+        "Tolerance": 10,
+        "Mounting": "THT",
+        "Amount": 100
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-06,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 20,
+        "Mounting": "SMD",
+        "Amount": 12
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-09,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 3
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 9.999999999999999e-06,
+        "Type": "Electrolitic",
+        "Voltage": 25,
+        "Package": "5x11",
+        "Tolerance": 20,
+        "Mounting": "THT",
+        "Amount": 11
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-11,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 100
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1.0000000000000001e-07,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 117
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 2.1999999999999998e-11,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 90
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1.5000000000000002e-09,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "5",
+        "Tolerance": 20,
+        "Mounting": "THT",
+        "Amount": 5
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-10,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 8
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 4.7e-06,
+        "Type": "Electrolitic",
+        "Voltage": 16,
+        "Package": "4x7",
+        "Tolerance": 20,
+        "Mounting": "THT",
+        "Amount": 15
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 2.2e-06,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 8
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 6.8e-10,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 8
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-08,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 93
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1.0000000000000001e-07,
+        "Type": "Ceramic",
+        "Voltage": 6.3,
+        "Package": "0402",
+        "Tolerance": 20,
+        "Mounting": "SMD",
+        "Amount": 80
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 75
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100000,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 95
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 7.5e-12,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0402",
+        "Tolerance": 3,
+        "Mounting": "SMD",
+        "Amount": 98
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 2.2e-05,
+        "Type": "Ceramic",
+        "Voltage": 16,
+        "Package": "1206",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 9
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1.0000000000000001e-07,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0402",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 78
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 4700.0,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 1,
+        "Mounting": "SMD",
+        "Amount": 98
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 4e-12,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0402",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 98
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 9.999999999999999e-06,
+        "Type": "Ceramic",
+        "Voltage": 25,
+        "Package": "0805",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 9
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-06,
+        "Type": "Ceramic",
+        "Voltage": 16,
+        "Package": "0402",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 90
+    },
+    {
+        "Part": "Capacitor",
+        "Capacitance": 1e-08,
+        "Type": "Ceramic",
+        "Voltage": 50,
+        "Package": "0402",
+        "Tolerance": 10,
+        "Mounting": "SMD",
+        "Amount": 98
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 47,
+        "Power": 0.4,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 48
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 1000000,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 47
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 270,
+        "Power": 0.125,
+        "Package": "0805",
+        "Tolerance": 5,
+        "Mounting": "SMD",
+        "Amount": 43
+    },
+    {
+        "Part": "Resistor",
+        "Resistance": 100,
+        "Power": 0.6,
+        "Package": "3x6",
+        "Tolerance": 1,
+        "Mounting": "THT",
+        "Amount": 24
+    }
+]
