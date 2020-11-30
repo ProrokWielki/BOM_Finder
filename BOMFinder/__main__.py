@@ -1,10 +1,9 @@
-import DataBase.DataBase as DataBase
-import Parts.Parts as Parts
-import UI.UI as UI
+import BOMFinder.DataBase.DataBase as DataBase
+import BOMFinder.Parts.Parts as Parts
+import BOMFinder.UI.UI as UI
+import BOMFinder.helpers as helpers
 
-import helpers
-
-from parts import Resistor, Capacitor, Bipolar_transistor, types
+from BOMFinder.parts import Resistor, Capacitor, Bipolar_transistor, types
 
 import sys
 import json

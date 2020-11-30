@@ -1,4 +1,4 @@
-import UI.UI as UI
+import BOMFinder.UI.UI as UI
 
 
 def to_prompt_sequence(part):

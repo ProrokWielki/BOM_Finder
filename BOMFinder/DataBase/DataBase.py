@@ -1,4 +1,4 @@
-import BOMFinder.parts as Parts
+from BOMFinder.parts import types
 
 
 class DataBase:
@@ -52,4 +52,4 @@ class DataBase:
     # TODO it makes it tightly coupled to Parts
     def from_json(self, json):
         for part in json:
-            self.add(Parts.types[part["Part"]].from_dictionary(part))
+            self.add(types[part["Part"]].from_dictionary(part))
